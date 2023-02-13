@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 80px;
+    background-color: #ebba90;
+
+}
+header{
+    padding-left: 450px;
+    color: white;
+    font-family: 'Chewy', cursive;
+
+}
+header h1{
+    padding-left: 95px;
+    font-size: 90px;
+
+}
+.taskform{
+
+    display: flex;
+}
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background:none;
+    text-align: right;
+    text-align: left;
+    flex: 1;
+    font-size: 20px;
+    font-family:  cursive;
+    margin-right: 306px;
+    margin-left: 10px;
+}
+.taskinput{
+    flex:1 1 0%;
+    background-color:rgb(248, 214, 173);
+    padding: 1rem;
+    padding-left: 20px;
+    padding-right: 199px;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: #682e28;
+    font-size: 20px;
+    margin-left: -92px;
+}
+/* .taskinput::placeholder{
+ color: auto;
+} */
+
+#tasksubmit{
+
+    color: gray;
+    font-size: 20px;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	appearance:initial;
+    border-color: black;
+    font-weight: 500;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+main{
+    
+    color: rgb(248, 245, 245);
+    font-family: 'Chewy', cursive;
+    flex:1 1 0%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 19px;
+
+}
+main h2{
+    background-color:#682e28; 
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+.tasks{
+   
+    padding-right:0px;
+    padding-left: 0px;
+
+}
+.tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color:cornsilk;
+    padding: 8px;
+    padding-right: 300px;
+    margin-top: 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.task.content{
+    flex:1 1 0%;
+}
+
+.task.content.text{
+    
+	font-size: 100px;
+	width: 100%;
+	display: block;
+	
+}
+
+.task .actions{
+    display: flex;
+    margin-right: 10px;
+}
+.task .actions button {
+	cursor: pointer;
+	margin-right: 25px;
+	font-size: 15px;
+	font-weight: 400;
+	
+} 
